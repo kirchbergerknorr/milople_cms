@@ -1,0 +1,8 @@
+{
+    "name": "kirchbergerknorr/Milople_Cms",
+    "description": "Solves block caching in magento 1.9.2.0",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+		<modules>
+			<Milople_Cms>
+				<version>1.0.0</version>
+			</Milople_Cms>
+		</modules>
+        <global>
+			<blocks>
+				<cms>
+					<rewrite>
+						<block>Milople_Cms_Block_Block</block>
+						<widget_block>Milople_Cms_Block_Widget_Block</widget_block>
+					</rewrite>
+				</cms>
+			</blocks>
+        </global>
+</config>
