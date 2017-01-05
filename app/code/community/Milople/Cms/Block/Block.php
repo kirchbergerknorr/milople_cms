@@ -9,6 +9,7 @@ class Milople_Cms_Block_Block extends Mage_Cms_Block_Block {
             $result = array(
                 $blockId,
                 Mage::app()->getStore()->getCode(),
+                (int)Mage::app()->getStore()->isCurrentlySecure(),
             );
       } else {
            $result = parent::getCacheKeyInfo();
